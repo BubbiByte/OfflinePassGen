@@ -1,0 +1,36 @@
+{
+  "name": "offlinepassgen",
+  "productName": "OfflinePassGen",
+  "version": "1.0.0",
+  "description": "An offline password generator",
+  "repository": "https://github.com/BubbiByte/OfflinePassGen",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "gulp": "gulp",
+    "dev": "start nodemon --exec electron . && call gulp watch",
+    "mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --out=builds --ignore=src --ignore=gulpfile.js --ignore=.gitignore --ignore=README.md --asar --app-copyright=\"Copyright (C) 2020 Thorbjørn Breum\"",
+    "win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --out=builds --ignore=src --ignore=gulpfile.js --ignore=.gitignore --ignore=README.md --asar --app-copyright=\"Copyright (C) 2020 Thorbjørn Breum\" --executable-name=OfflinePassGen",
+    "linux": "electron-packager . --overwrite --platform=linux --arch=x64 --icon=assets/icons/linux/icon.png --out=builds --ignore=src --ignore=gulpfile.js --ignore=.gitignore --ignore=README.md --asar --app-copyright=\"Copyright (C) 2020 Thorbjørn Breum\""
+  },
+  "keywords": [
+    "Offline",
+    "Password",
+    "Generator"
+  ],
+  "author": "Thorbjørn \"BubbiByte\" Breum",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "electron": "^9.0.4",
+    "electron-packager": "^14.2.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-terser": "^1.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

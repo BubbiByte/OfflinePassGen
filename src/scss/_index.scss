@@ -1,0 +1,72 @@
+#alert {
+  background: rgba(243, 167, 48, 0.75);
+  padding: 0.08rem;
+  text-align: center;
+  margin: 0.6rem 0;
+}
+
+.result-container {
+  margin-top: 1rem;
+  min-height: 30px;
+  max-width: 90vw;
+  border: 2px solid color(yellow);
+
+  #result {
+    word-break: break-all;
+  }
+
+  #clipboard {
+    font-size: 1.4rem;
+    float: right;
+    margin-right: 4px;
+    color: color(light);
+
+    &:hover {
+      @include easeOut;
+      color: color(yellow);
+    }
+  }
+}
+
+.settings {
+  margin-top: 1rem;
+  input {
+    float: right;
+  }
+
+  .setting {
+    border-bottom: 1px solid color(yellow);
+    border-top: 1px solid color(yellow);
+
+    #length {
+      border: 2px solid color(yellow);
+      outline: none;
+      background-color: color(dark);
+      color: color(light);
+    }
+  }
+
+  #setting_symbols {
+    border-bottom: none;
+  }
+
+  #setting_length {
+    border-top: none;
+  }
+}
+
+#generate {
+  border-radius: 25px;
+  margin-top: 1rem;
+  background: rgba(243, 167, 48, 0.75);
+  width: 90vw;
+  padding: 0.5rem;
+  @include easeOut;
+  color: color(light);
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+
+  &:hover {
+    background: rgba(243, 167, 48, 1);
+  }
+}
