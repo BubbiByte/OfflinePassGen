@@ -53,7 +53,7 @@ npm run mac
 
 ## Enjoy the software? Buy me a beer!🍺
 
-Cardano: DdzFFzCqrhswSkp4FevY5J4BZAfYoCJxziGs236394kjVehG41dCnJBt1MhKd45XXLgesCWU3oBH5DspgJZG4ep3eZjVPtPEARvV3tRu
+Cardano: addr1qxglgwq5fm3wdr9dcnccq06e4xgqd4xerhsd37gg5tu7ydfk2kg2st0tvrcrrnlfdzm2j55c0zp8jx423tzhqkczqzjqerlzfd
 
 Ethereum(ERC20): 0x094adDf66E121bdE086A78D3F986a145b5a02c9A
 
